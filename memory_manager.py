@@ -42,6 +42,6 @@ def add_memory(role, content, weight, tags):
     save_json(working_file, mem)
 
 if __name__ == "__main__":
-    add_memory("user", "You are in charge, proceed all the way through the list and then I'll review.", 0.8, ["execution", "sprint", "phases"])
-    add_memory("agent", "Executing Phase 2 and 3: Building Cal.com integration, Stripe deposit routes, and webhooks.", 0.8, ["stripe", "calendar", "nextjs"])
+    add_memory("user", "approved deployment scripts", 0.9, ["deploy", "vercel"])
+    add_memory("agent", "Wrapped up Project Wood v0.1. Completed Phase 1, Phase 2, and Phase 3 of backend sprint. Awaiting Vercel deployment.", 0.8, ["milestone", "completion", "nextjs", "project-wood"])
     print("Memory updated successfully.")
